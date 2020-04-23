@@ -1,11 +1,17 @@
 // helloWorld function
 //same as function helloWorld() { } because functions are first class citizens.
-const helloWorld = function() {
+const helloWorld = function () {
     return "Hello, World!";
 }
 
-const sayHello = function() {
-    return true;
+const sayHello = function (input) {
+    if (input === input) {
+        return "Hello, " + input + "!";
+    } else if(input === input) {
+        return "Hello, " + input + "!";
+    } else  {
+        return "Hello, " + input + "!";
+    }
 }
 
 
