@@ -36,6 +36,40 @@ describe("sayHello", function () {
 
 });
 
+describe("isFive", function() {
+    it('it should be a defined function', function () {
+        expect(typeof isFive).toBe('function');
+    });
+    it('it should return a boolean when called', function () {
+        expect(typeof isFive()).toBe("boolean");
+    });
+    it('it should return true when isFive is passed 5', function () {
+        expect(isFive(5)).toBe("5");
+    });
+});
+
+describe("isEven", function() {
+    it('it should be a defined function', function () {
+        expect(typeof isEven).toBe('function');
+    });
+});
+
+describe('isVowel', function() {
+    it('it should be a defined function', function () {
+        expect(typeof isVowel).toBe('function');
+    });
+    it('It should return a string when called', function() {
+        expect(typeof isVowel).toBe('string');
+    });
+});
+
+describe('add', function() {
+    it('it should be a defined function', function() {
+        expect(typeof add).toBe('function');
+    });
+});
+
+
 // describe("isNumeric", function () {
 //     it("should be a defined function", function () {
 //         expect(typeof isNumeric)

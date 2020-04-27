@@ -14,6 +14,27 @@ const sayHello = function (input) {
     }
 }
 
+const isFive = function (input) {
+    if(input === "5" || input === 5) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+const isEven = function (input) {
+    return input;
+}
+
+function isVowel(input) {
+    return "hello world";
+}
+
+function add(input) {
+    return input;
+}
+
+
 
 // function isNumeric () {
 //     if(input === 'Jim Henson') {
